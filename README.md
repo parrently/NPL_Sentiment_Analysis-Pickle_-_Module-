@@ -76,4 +76,4 @@ print(s.sentiment("This movie was utter junk. There were absolutely 0 pythons. I
 We can see that the first comment we created is showing 100% confident as a positive review, and the second one is 100% negative.
 ```
 
-@Copyright The NLP_saving_classifiers.py file was re-written based on [Sentdex](https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/) turorials from python programming.
+@Copyright The review files were re-written based on [Sentdex](https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/) turorials from python programming.
