@@ -59,9 +59,11 @@ The results is shown below:
 ```
 ## A Example of comment snetiment analysis
 
-- First we trained the model based on the positive.text and negative.text data, then saved them to pickle files --- 
-- Second we reload the pickle and rerun the module (It is faster we you try to import the model again) ---
-- Type any comment to test the sentiment analysis 
+- First we trained the model based on the [positive.text](https://github.com/parrently/NPL_Sentiment_Analysis-Pickle_-_Module-/blob/master/positive.txt) and [negative.text](https://github.com/parrently/NPL_Sentiment_Analysis-Pickle_-_Module-/blob/master/negative.txt) data, then saved them to pickle files --- [NLP_Creating a module for Sentiment Analysis.py](https://github.com/parrently/NPL_Sentiment_Analysis-Pickle_-_Module-/blob/master/NLP_Creating%20a%20module%20for%20Sentiment%20Analysis.py)
+
+- Second we reload the pickle and rerun the module (It is faster we you try to import the model again) --- [sentiment_mode.py] (https://github.com/parrently/NPL_Sentiment_Analysis-Pickle_-_Module-/blob/master/sentiment_mod.py)
+
+- Type any comment to test the sentiment analysis [test_senetiment_mod.py](https://github.com/parrently/NPL_Sentiment_Analysis-Pickle_-_Module-/blob/master/test_sentiment_mod.py)
 
 ```python
 import sentiment_mod as s
