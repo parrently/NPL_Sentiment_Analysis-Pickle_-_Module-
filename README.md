@@ -57,9 +57,20 @@ The results is shown below:
 [[1, 5, 'yes'], [2, 4, 'yes'], [3, 3, 'no'], [4, 2, 'no'], [5, 1, 'no']]
 {0: [1, 2, 3, 4, 5], 1: ('yes', 'no'), 2: {'1': 'yes', '2': 'yes', '3': 'yes', '4': 'no', '5': 'no'}}
 ```
+## A Example of comment snetiment analysis
 
+- First we trained the model based on the positive.text and negative.text data, then saved them to pickle files --- 
+- Second we reload the pickle and rerun the module (It is faster we you try to import the model again) ---
+- Type any comment to test the sentiment analysis 
 
+```python
+import sentiment_mod as s
+print(s.sentiment("This movie was awesome! The acting was great, plot was wonderful, and there were pythons...so yea!"))
+print(s.sentiment("This movie was utter junk. There were absolutely 0 pythons. I don't see what the point was at all. Horrible movie, 0/10"))
+```
+```markdown
+('pos', 1.0)
+('neg', 1.0)
+```
 
-## A Example of comment snetiment analysis on classfication module based on Piclked classifiers
-
-The NLP_saving_classifiers.py file was re-written based on [Sentdex](https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/) turorials from python programming.
+@Copyright The NLP_saving_classifiers.py file was re-written based on [Sentdex](https://pythonprogramming.net/pickle-classifier-save-nltk-tutorial/) turorials from python programming.
